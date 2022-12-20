@@ -23,6 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else if(event.target.classList.contains("bomb")){
                     event.target.classList.remove("bomb");
                     event.target.classList.add("normal");
+                } else if(event.target.classList.contains("good")){
+                    event.target.classList.remove("good");
+                    event.target.classList.add("normal");
                 }
             });
             game.appendChild(box);
@@ -126,16 +129,17 @@ function testbomb(i,v, blown){
             }
         }
     }
-    f = 0;
-    fr = 0;
-    g = 0;
-    gr = 0;
+    f = i;
+    fr = i;
+    g = v;
+    gr = v;
     while(f < size-1 && g < size-1){
         f++;
         g++;
         fr++;
         gr--;
         console.log("" + f + g);
+        console.log("" + fr + gr);
         if(f > size || f < 0 || g > size || g < 0 || fr > size || fr < 0 || gr > size || gr < 0){
             break;
         }
