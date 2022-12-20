@@ -1,0 +1,77 @@
+html {
+    width:100%;
+    height:100%;
+}
+
+body {
+    background-color: black;
+    color:white;
+    width:500px;
+    height:500px;
+}
+
+.border {
+    background-color: gray;
+    color:white;
+    width:100vw;
+    height:100vw;
+}
+
+#game {
+    width:auto;
+    height:auto;
+}
+
+h1 {
+    color:white; 
+}
+
+.normal {
+    background-color:darkgray;
+    border-style:solid;
+    border-color:gray;
+    float:left;
+    border-width:0.1vw;
+    width:2vw;
+    height:2vw;
+}
+
+.enemy {
+    background-color:red;
+    border-style:solid;
+    border-color:gray;
+    float:left;
+    border-width:0.1vw;
+    width:2vw;
+    height:2vw;
+}
+
+.good {
+    background-color:gold;
+    border-style:solid;
+    border-color:gray;
+    float:left;
+    border-width:0.1vw;
+    width:2vw;
+    height:2vw;
+}
+
+.bomb {
+    background-color:rgb(60, 0, 255);
+    border-style:solid;
+    border-color:gray;
+    float:left;
+    border-width:0.1vw;
+    width:2vw;
+    height:2vw;
+}
+
+.dead {
+    background-color:darkred;
+    border-style:solid;
+    border-color:gray;
+    float:left;
+    border-width:0.1vw;
+    width:2vw;
+    height:2vw;
+}
